@@ -29,7 +29,7 @@ Run this command in the terminal in the virtual environment:
 		pip install -r requirements.txt
 
 If you are working on a pull of this repository, update this file before pushing this git repository.
-
-  pip freeze > requirements. txt
+		
+		pip freeze > requirements. txt
 
 
