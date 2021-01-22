@@ -44,7 +44,16 @@ To learn more about the scnscrape module, check out this [Medium article by Mart
 The next compoent of this project is to create word clouds to help us visually better understand the content of our Tweets. In this repository, the WordCloud.ipynb file contains the word_cloud() function. This function can be used to create different word cloud images from the Tweets.csv file and the Ekphrasis_Tweets.csv file. I encourage this function to be run a variety of times and for lots of different word clouds to be created. Word cloud images will be automatically saved to the repository. 
 
 Files are named using the following formula: <br>
-"WordCloud _ {# of Words} _ Words _ {# of Tweets Requested} _ Tweets_Queries _ {Query Filter} _ Seed _ {Seed #}.png"
+"WordCloud _ {# of Words} _ Words _ {# of Tweets Requested} _ Tweets_Queries _ {Query Filter} _ Seed _ {Seed #}.png"  <br>
+
+trasnlates to: <br>
+"WordCloud_60_Words_5000_Tweets_Queries_JZI_Seed_80.png" <br>
+
+which means: <br>
+There are 60 words in your word cloud. <br>
+There is a random sample of 5000 Tweets in your word cloud. <br>
+Your query(ies) include: 'Jews', 'Zionist', and 'Israel'. <br>
+Your seed is 80.
 
 **Please Note: pay attention to the user input being asked for in the command prompt. The user input is supposed to help customize the word clouds. The options inputted will also affect the naming of the files saved.**
 
