@@ -46,14 +46,14 @@ The next compoent of this project is to create word clouds to help us visually b
 Files are named using the following formula: <br>
 "WordCloud _ {# of Words} _ Words _ {# of Tweets Requested} _ Tweets_Queries _ {Query Filter} _ Seed _ {Seed #}.png"  <br>
 
-trasnlates to: <br>
-"WordCloud_60_Words_5000_Tweets_Queries_JZI_Seed_80.png" <br>
+Which means if: <br>
++ There are 60 words in your word cloud
++ A random sample of 5000 Tweets in your word cloud
++ Your query(ies) include: 'Jews', 'Zionist', and 'Israel'
++ Your seed is 80
 
-which means: <br>
-There are 60 words in your word cloud. <br>
-There is a random sample of 5000 Tweets in your word cloud. <br>
-Your query(ies) include: 'Jews', 'Zionist', and 'Israel'. <br>
-Your seed is 80.
+The file name would look like this: <br>
+"WordCloud_60_Words_5000_Tweets_Queries_JZI_Seed_80.png" <br>
 
 **Please Note: pay attention to the user input being asked for in the command prompt. The user input is supposed to help customize the word clouds. The options inputted will also affect the naming of the files saved.**
 
