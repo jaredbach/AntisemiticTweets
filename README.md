@@ -3,7 +3,8 @@ This is the beginning of a repository that will be used to create a Twitter bot 
 
 # Component 1: Virtual Environment
 ## Step 1: Create a Virtual Environment
-I recommend creating a Virtual Environment in Visual Studio Code or PyCharm.
+I recommend creating a Virtual Environment in Visual Studio Code or PyCharm. Please note that the instructions for creating a virtual environenment assume that you are using a Mac. Users with a PC may need to follow different instructions.
+
 Lets say that the name of the virtual environment that you want to create is:
 		
 		env
