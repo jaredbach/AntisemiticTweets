@@ -48,7 +48,7 @@ Files are named using the following formula: <br>
 
 Which means if: <br>
 + There are 60 words in your word cloud
-+ A random sample of 5000 Tweets in your word cloud
++ A random sample of 5000 Tweets are in your word cloud
 + Your query(ies) include: 'Jews', 'Zionist', and 'Israel'
 + Your seed is 80
 
