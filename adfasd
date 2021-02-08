@@ -1,0 +1,52 @@
+[1mdiff --git a/PullAntisemiticTweets.ipynb b/PullAntisemiticTweets.ipynb[m
+[1mindex 1f7a278..c392cf5 100644[m
+[1m--- a/PullAntisemiticTweets.ipynb[m
+[1m+++ b/PullAntisemiticTweets.ipynb[m
+[36m@@ -46,7 +46,7 @@[m
+     "    query = str(query)\n",[m
+     "    \n",[m
+     "    # Change Directory to the 'Jews' Folder\n",[m
+[31m-    "    os.chdir('/Users/AmiBach/Desktop/Programming/AntisemiticTweets/{}'.format(query))\n",[m
+[32m+[m[32m    "    os.chdir('./{}'.format(query))\n",[m
+     "\n",[m
+     "    # Create Date Object\n",[m
+     "    my_date = date(2020, 1, 1).isoformat()\n",[m
+[36m@@ -110,8 +110,7 @@[m
+    "source": [[m
+     "### \"Jews\" Query\n",[m
+     "+ Language: English\n",[m
+[31m-    "+ 50 Tweets from Each Day in 2020\n",[m
+[31m-    "+ Change OS Directory to the 'Jews' Folder on Your Machine or Code Will Produce an Error"[m
+[32m+[m[32m    "+ 50 Tweets from Each Day in 2020"[m
+    ][m
+   },[m
+   {[m
+[36m@@ -139,8 +138,7 @@[m
+    "source": [[m
+     "### \"Israel\" Query\n",[m
+     "+ Language: English\n",[m
+[31m-    "+ 50 Tweets from Each Day in 2020\n",[m
+[31m-    "+ Change OS Directory to the 'Israel' Folder on Your Machine or Code Will Produce an Error"[m
+[32m+[m[32m    "+ 50 Tweets from Each Day in 2020"[m
+    ][m
+   },[m
+   {[m
+[36m@@ -168,8 +166,7 @@[m
+    "source": [[m
+     "### \"Zionist\" Query\n",[m
+     "+ Language: English\n",[m
+[31m-    "+ 50 Tweets from Each Day in 2020\n",[m
+[31m-    "+ Change OS Directory to the 'Zionist' Folder on Your Machine or Code Will Produce an Error"[m
+[32m+[m[32m    "+ 50 Tweets from Each Day in 2020"[m
+    ][m
+   },[m
+   {[m
+[36m@@ -206,7 +203,7 @@[m
+    "outputs": [],[m
+    "source": [[m
+     "# Change Directory - Put the Final Query CSVs in this Directory Manually\n",[m
+[31m-    "os.chdir('/Users/AmiBach/Desktop/Programming/AntisemiticTweets')\n",[m
+[32m+[m[32m    "os.chdir('../')\n",[m
+     "\n",[m
+     "# Combine CSV Files\n",[m
+     "extension = 'csv'\n",[m
